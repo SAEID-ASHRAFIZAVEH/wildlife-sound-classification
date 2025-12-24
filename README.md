@@ -16,10 +16,16 @@ This project uses audio signal processing and machine learning to identify 12 di
 
 ## 📊 Results
 
-- **Test Accuracy**: ~85-90% (depends on your run)
-- **Training Samples**: ~480 audio files
-- **Testing Samples**: ~120 audio files
+- **Test Accuracy**: 55.21%
+- **Training Samples**: 384 audio files
+- **Testing Samples**: 96 audio files
 - **Feature Dimensions**: 40 MFCC coefficients
+
+### Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+*The confusion matrix shows the model's prediction performance across all 12 wildlife categories. The model performs best on insects (100% recall) and roosters (88% recall), while categories like dog, cat, pig, and hen show room for improvement.*
 
 ## 🛠️ Technologies Used
 
@@ -40,6 +46,7 @@ wildlife-sound-classification/
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Python dependencies
 ├── .gitignore                    # Git ignore file
+├── confusion_matrix.png          # Model performance visualization
 │
 ├── dataset/                      # Dataset folder (not included in repo)
 │   ├── meta/
@@ -126,11 +133,12 @@ This project uses the **ESC-50 dataset**:
 ## 🔮 Future Improvements
 
 - [ ] Add deep learning models (CNN, RNN)
-- [ ] Implement data augmentation
+- [ ] Implement data augmentation techniques
 - [ ] Add real-time audio classification
 - [ ] Create web interface for predictions
 - [ ] Experiment with other audio features (spectrograms, chromagrams)
 - [ ] Cross-validation for more robust evaluation
+- [ ] Hyperparameter tuning to improve accuracy
 
 ## 🤝 Contributing
 
