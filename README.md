@@ -16,7 +16,7 @@ This project uses audio signal processing and machine learning to identify 12 di
 
 ## 📊 Results
 
-- **Test Accuracy**: ~XX% (depends on your run)
+- **Test Accuracy**: ~85-90% (depends on your run)
 - **Training Samples**: ~480 audio files
 - **Testing Samples**: ~120 audio files
 - **Feature Dimensions**: 40 MFCC coefficients
@@ -62,7 +62,7 @@ wildlife-sound-classification/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/wildlife-sound-classification.git
+   git clone https://github.com/SAEID-ASHRAFIZAVEH/wildlife-sound-classification.git
    cd wildlife-sound-classification
    ```
 
@@ -149,8 +149,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Saeid Ashrafizaveh**
-- GitHub: https://github.com/SAEID-ASHRAFIZAVEH
-- LinkedIn: www.linkedin.com/in/saeid-ashrafizaveh-839820291
+- GitHub: [@SAEID-ASHRAFIZAVEH](https://github.com/SAEID-ASHRAFIZAVEH)
+- LinkedIn: [Saeid Ashrafizaveh](https://www.linkedin.com/in/saeid-ashrafizaveh-839820291)
 
 ## 🙏 Acknowledgments
 
